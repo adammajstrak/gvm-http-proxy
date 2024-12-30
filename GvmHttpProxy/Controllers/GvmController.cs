@@ -1,5 +1,6 @@
 ﻿using GvmHttpProxy.Extensions;
 using GvmHttpProxy.Service;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Xml.Linq;
 
@@ -19,7 +20,7 @@ namespace GvmHttpProxy.Controllers
         }
 
         [HttpPost]
-        //[Authorize]
+        [Authorize]
         [Consumes("application/xml")]
         public IResult ExecuteGvmCommand([FromBody] XElement xmlRequest)
         {
