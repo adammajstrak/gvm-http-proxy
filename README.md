@@ -108,3 +108,7 @@ Other xml request you can find in gvm documentation.
 ## License
 
 MIT License
+
+## More
+
+More documetnation you can find here: [https://codehub.com.pl/net-creating-http-api-to-greenbone-vulnerability-manager-using-gvm-cli](https://codehub.com.pl/net-creating-http-api-to-greenbone-vulnerability-manager-using-gvm-cli/)
